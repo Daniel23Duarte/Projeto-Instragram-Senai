@@ -1,98 +1,79 @@
-.post{ 
-box-sizing: border-box;
-margin-left: 350px;
-margin-top: 50px;
-margin-bottom: 50px  ;
-width: 560;
-height: 620px;
-border-color:pink ;
-border:2px inset ;
-box-shadow: 3px 3px 3px rgb(rgb(26, 25, 25))
-
+.post{
+    box-sizing: border-box;
+    margin-left: 370px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 620px;
+    border-color: rgb(87, 87, 87);
+    border: 1px inset;
+    box-shadow: 2px 2px 2px rgb(87, 87, 87);
 }
-
-body{ background-color: aqua;
-
+body{
+    background-color: pink;
 }
-
-.title{
-
-    color: black;
-}
-
-.post img{
  
+.title{
+    color: white;
+}
+ 
+.post img{
     margin-top: 20px;
     margin-left: 20px;
-
-
-
+ 
 }
-
-.post-info{
-
-display: flex;
-justify-content:space-between ;
-align-items: center;
-margin-top: 10px
-
-
-
-}
-
-.post p{
-    color:brown;
+.post-info p{
+    color: white;
     font-size: smaller;
     text-align: right;
-margin-left: 20px;
-
+    margin-right: 20px;
+ 
 }
+ 
 .post-info h2{
-
-color: brown;
-margin-left: 20px;
-
+    color: white;
+    margin-left: 20px;
 }
-
-
-.botão{
-
-background-color: black;
-
+ 
+.post-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
-
-.botão ul {
-
-max-width: 800px;
-list-style: nome;
-padding:0;
-
+ 
+.botao{
+    background-color: pink(37, 37, 39);
 }
-
-.botão ul li a { 
-color: blue;
-padding: 20px;
-display: inline-block;
-text-decoration: inline-block;
-text-decoration: nome;
-transition: background . 4s;
+ 
+.botao ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
 }
-
-.botão ul li a:houver{
-    background-color: aquamarine;
+ 
+.botao ul li{
+    display: inline;
 }
-
-
+ 
+.botao ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+ 
+.botao ul li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+ 
 footer{
-
-
-
-
-
-
-
-
-
-
-    
+    height: 25px;
+    margin-top: 60px;
+    background: #42A5F5;
+    color: white;
+    line-height: 25px;
+    padding: 0 20px;
+    text-align: center;
 }

@@ -1,0 +1,52 @@
+.botao{
+    background-color: pink(37, 37, 39);
+}
+ 
+.botao ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+ 
+.botao ul li{
+    display: inline;
+}
+ 
+.botao ul li a{
+    color: #0c73da;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+ 
+.botao ul li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+ 
+footer{
+    height: 30px;
+    margin-top: 65px;
+    background: #42A5F5;
+    color: white;
+    line-height: 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+.topeira{
+    text-align: center;
+}
+
+.post{
+    box-sizing: border-box;
+    margin-left: 360px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 620px;
+    border-color: rgb(87, 87, 87);
+    border: 2px inset;
+    
+}
