@@ -1,0 +1,79 @@
+.post{
+    box-sizing: border-box;
+    margin-left: 370px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 620px;
+    border-color: rgb(87, 87, 87);
+    border: 1px inset;
+    box-shadow: 2px 2px 2px rgb(87, 87, 87);
+}
+body{
+    background-color: pink;
+}
+ 
+.title{
+    color: white;
+}
+ 
+.post img{
+    margin-top: 20px;
+    margin-left: 20px;
+ 
+}
+.post-info p{
+    color: white;
+    font-size: smaller;
+    text-align: right;
+    margin-right: 20px;
+ 
+}
+ 
+.post-info h2{
+    color: white;
+    margin-left: 20px;
+}
+ 
+.post-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+ 
+.botao{
+    background-color: pink(37, 37, 39);
+}
+ 
+.botao ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+ 
+.botao ul li{
+    display: inline;
+}
+ 
+.botao ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+ 
+.botao ul li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+ 
+footer{
+    height: 25px;
+    margin-top: 60px;
+    background: #42A5F5;
+    color: white;
+    line-height: 25px;
+    padding: 0 20px;
+    text-align: center;
+}
